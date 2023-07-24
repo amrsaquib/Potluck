@@ -1,5 +1,9 @@
 .header {
-    position: sticky;
+    position: fixed;
+    background-color: #ffffff ;
+    width: 100vw;
+    border-bottom: 1px solid #c9bce7;
+
     &__logo {
         width: 75vw;
         height: 5rem;
