@@ -1,0 +1,39 @@
+.vendor {
+    width: 85vw;
+    height: 5rem;
+    display: flex;
+    border: 1px solid #c9bce7;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0.5rem;
+
+    &__left {
+        width: 10rem;
+        height: 3.5rem;
+        padding-right: 0.75rem;
+    }
+
+    &__image {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-size: 1rem;
+        text-align: left;
+        margin-bottom: 0.5rem;
+        color: #8b70cd;
+    }
+
+    &__description {
+        font-size: 0.5rem;
+        text-align: left;
+        color: #c9bce7;
+    }
+}
