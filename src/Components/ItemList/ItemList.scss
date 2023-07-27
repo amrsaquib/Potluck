@@ -1,0 +1,8 @@
+.item-list {
+    width: 100%;
+    height: calc(100% - 8.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
