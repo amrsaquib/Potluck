@@ -1,5 +1,6 @@
 import './VendorsList.scss'
 import Vendor from '../Vendor/Vendor'
+import { Link } from 'react-router-dom'
 
 export default function VendorsList() {
     return (
