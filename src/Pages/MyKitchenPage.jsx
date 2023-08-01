@@ -1,12 +1,12 @@
 import Footer from '../Components/Footer/Footer';
 import Header from '../Components/Header/Header';
-import Checkout from '../Components/Checkout/Checkout';
+import MyKitchen from '../Components/MyKitchen/MyKitchen';
 
-export default function CheckoutPage({cart}) {
+export default function MyKitchenPage() {
     return (
         <div className="App">
           <Header />
-          <Checkout cart={cart}/>
+          <MyKitchen />
           <Footer />
         </div>
       );
