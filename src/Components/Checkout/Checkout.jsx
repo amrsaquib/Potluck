@@ -1,3 +1,4 @@
+import axios from "axios";
 import back from "../../Assets/back-icon.svg";
 import cartIcon from "../../Assets/cart-icon.svg";
 import "./Checkout.scss";
@@ -14,7 +15,11 @@ export default function Checkout({cart}) {
     }
   
   let clickHandler = () => {
-    navigate('/')
+    let finalCart = {...cart}
+    finalCart.time = Date.now()
+    axios.post(`http://localhost:8080/vendors/${vendorId}/checkout`, finalCart).then(() => {
+      navigate('/')
+    })
   }
   return (
     <div className="checkout">

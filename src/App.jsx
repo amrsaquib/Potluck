@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 
 function App() {
-  const [cart, setCart] = useState({items: {}, totalPrice: 0})
+  const [cart, setCart] = useState({items: {}, totalPrice: 0, time: null})
   return (
     <BrowserRouter>
       <Routes>
